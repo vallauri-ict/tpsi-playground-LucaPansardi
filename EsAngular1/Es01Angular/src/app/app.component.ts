@@ -11,7 +11,7 @@ export class AppComponent {
   index;
 
   changeName(){
-    this.index = Math.floor((Math.random() * 10) + 1);
+    this.index = Math.floor((Math.random() * 10));
     this.myName = this.names[this.index];
   }
 }
